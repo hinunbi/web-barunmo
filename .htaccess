@@ -1,4 +1,1 @@
-ErrorDocument 503 /503.html
-RewriteEngine on
-RewriteRule !^503\.html$ - [L,NC,R=503]
-Header Set Cache-Control "max-age=0, no-store"
+Redirect "/" "http://barunmo.blogspot.kr/"
